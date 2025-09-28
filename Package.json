@@ -1,0 +1,15 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord para Españoles RP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^15.0.0",
+    "unb-api": "^1.0.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
