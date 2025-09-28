@@ -396,4 +396,16 @@ client.on('interactionCreate', async interaction => {
 });
 
 client.login(process.env.DISCORD_TOKEN);
+// ...todo tu código de Discord.js y UnbelievaBoat aquí...
+
+// ENDPOINT PARA MANTENER EL BOT ARRIBA
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Bot activo y funcionando!');
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Servidor web activo en el puerto ${PORT}`));
 
